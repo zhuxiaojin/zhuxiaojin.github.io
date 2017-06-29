@@ -1,0 +1,233 @@
+/*-------朱晓进个人博客网站引用样式表-----*/
+body {
+    font-size: 16px;
+    font-family: 微软雅黑;
+    color: #4d4d4d;
+    width: 100%
+}
+
+a {
+    text-decoration: none
+}
+
+/*-------定义基本常用样式-------*/
+hr {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-5 {
+    padding: 5px;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-right-20 {
+    margin-right: 20px;
+}
+
+/*------网站样式-------*/
+header {
+    background-color: white;
+    border-top: 5px solid #1296db;
+    border-bottom: 1px solid #eee;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+ul.list-group{
+
+    margin-bottom: 0;
+
+}
+ul{
+    margin-bottom: 0;
+}
+.bg-img-1 {
+    background: url(http://onkd3yvsv.bkt.clouddn.com/banner-3.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 300px 0 200px 0;
+    height: auto;
+}
+.bg-img-2 {
+    background: url(http://onkd3yvsv.bkt.clouddn.com/banner-2.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 300px 0 200px 0;
+    height: auto;
+}
+.bg-img-3{
+    background: url(http://onkd3yvsv.bkt.clouddn.com/banner-1.png) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 300px 0 200px 0;
+    height: auto;
+}
+.banner{
+    height:510px;
+}
+.service-box {
+    background: #fff;
+    border-bottom: 2px solid #f7f7f7;
+    padding: 40px 20px;
+    margin-bottom:30px;
+    border-radius: 10px;
+    box-shadow:2px 2px 15px #888888;
+}
+.service-desc span{
+    font-size: 14px;
+    margin: 10px;
+}
+.service-desc>div{
+    /*padding-top: 10px;*/
+    height:150px;
+}
+.service-box:hover{
+    border-bottom:3px solid #00b2ea;
+}
+footer {
+    background-color: #2f2f2f;
+    padding: 50px 0 30px;
+}
+
+.web-num {
+    color: white;
+    text-align: center;
+    text-decoration: none
+}
+
+.web-num a {
+    color: white;
+    text-align: center;
+    text-decoration: none
+}
+
+header .col-md-1 {
+
+}
+
+header .col-md-6 {
+    margin-top: 35px;
+}
+
+header .col-md-6 span a {
+    font-size: 16px;
+    color: #4d4d4d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header .col-md-6 span {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+header .col-md-6 span:hover {
+    color: black;
+    border-bottom: 2px solid #1296db;
+}
+
+header .col-md-6 span .active {
+    /*background-color: #b2b2b2;*/
+    border-bottom: 2px solid #1296db;
+}
+
+.bg-img h1 {
+    color: white;
+
+}
+#my-introduce,#my-skill{
+    background-color: #f1f1f1;
+}
+#my-introduce img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 20px 0 30px;
+    border: 3px solid #cdcdcd;
+}
+#my-introduce img:hover {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    margin: 20px 0 30px;
+    border: 3px solid #cdcdcd;
+}
+
+section {
+    padding: 100px;
+}
+
+.service-ico {
+    margin-bottom: 20px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.rotateInDownLeft.go {
+    -webkit-animation-name: rotateInDownLeft;
+    animation-name: rotateInDownLeft;
+}
+
+section h4 {
+    color: #585858;
+    font-weight: bolder;
+}
+
+section h4:hover {
+
+}
+
+#my-work, #my-contact {
+    background-color: white;
+}
+
+.active {
+    /*background-color: #b2b2b2;*/
+    border-bottom: 2px solid #1296db;
+}
+
+#my-contact i {
+    vertical-align: middle;
+    padding: 10px;
+}
+header {
+    z-index: 999;
+}
+header h2, h3, h4, h5, h6, a {
+    font-weight: bold;
+}
+
+.divider-header {
+    background: #666;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}

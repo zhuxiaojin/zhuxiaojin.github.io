@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>朱晓进-个人信息展示</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!--引入网页图标(猪头~)-->
+    <link rel="shortcut icon" type="image/x-icon" href="./img/pig.png" media="screen"/>
+    <meta name="keywords" content="烟台phper,烟台php学习,烟台php找工作,烟台php交流分享"/>
+    <meta name="description" content="烟台本地的PHP开发者分享交流网站,建站,找工作,编程疑问解答"/>
+    <!--引入本站所需的样式表-朱晓进-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--<link rel="stylesheet" href="./css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./unslider/css/unslider.css">
+    <link rel="stylesheet" type="text/css" href="./timeline/css/default.css"/>
+    <link rel="stylesheet" type="text/css" href="./timeline/css/component.css"/>
+    <script src="./timeline/js/modernizr.custom.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./awesome/css/font-awesome.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row ">
+        <div class="banner">
+            <ul class="list-group">
+                <li class="bg-img-1"></li>
+                <li class="bg-img-2"></li>
+                <li class="bg-img-3"></li>
+            </ul>
+        </div>
+    </div>
+    <header class="row " id="header">
+        <div class="col-md-1 col-xs-1 text-right">
+            <span><img src="./img/amy-cs-php.png"></span>
+        </div>
+        <div class="col-md-5 col-xs-3 text-left padding-5">
+            <h2>YTPHPER!</h2>
+        </div>
+        <div class="col-md-6 col-xs-8">
+            <span><a href="">首页</a></span>
+            <span><a href="#my-introduce">个人简介</a></span>
+            <span><a href="#my-work">工作经历</a></span>
+            <span><a href="#my-skill">职业技能</a></span>
+            <span><a href="#my-contact">联系一下</a></span>
+        </div>
+    </header>
+    <section id="my-introduce" class="row">
+        <div class="container">
+            <div class="row text-center">
+                <!--<img src="./img/zxj.jpg">-->
+                <div><h4> 简介</h4></div>
+                <div>
+                    <small>I&nbsp; AM</small>
+                </div>
+                <div class="divider-header"></div>
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-md-12 text-center">
+                                <div class="text-center"><img src="./img/zxj.jpg" alt=""></div>
+                            <div class="container">
+                                <div class="row text-center">
+                                    <div class="col-md-5 col-md-offset-4  ">
+                                        <code class="text-left ">
+                                            <div>$zxj['Name']='朱晓进';</div>
+                                            <div>$zxj['Age']='29';</div>
+                                            <div>$zxj['Sex']='男';</div>
+                                            <div>$zxj['Education']='大专';</div>
+                                            <div>$zxj['University']='烟台职业学院';</div>
+                                            <div>$zxj['Address']='山东省烟台市芝罘区黄务小区';</div>
+                                            <div>$zxj['Interest']='自驾,美食,旅游,PlayGame,豆瓣电影,网易云音乐';</div>
+                                            <div>$zxj['Character']='随和,幽默,大大咧咧,责任心,加班什么的再来一打,逗B';</div>
+                                            <div>print_r($zxj);</div>
+                                        </code>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="my-work" class="row">
+        <div class="container">
+            <div class="row text-center">
+                <div><h4>工作经历</h4></div>
+                <div>
+                    <small style="color:black;">
+                        I Did
+                    </small>
+                    <div class="divider-header"></div>
+                <div class="container">
+                    <div class="main">
+                        <ul class="cbp_tmtimeline">
+                            <li>
+                                <time class="cbp_tmtime" datetime=" "><span>烟台职业学院</span> <span>2008.9-2011.7</span>
+                                </time>
+                                <div class="cbp_tmicon cbp_tmicon-phone"><i class="fa fa-th"></i></div>
+                                <div class="cbp_tmlabel">
+                                    <h2>计算机工程(大专)</h2>
+                                    <p>
+                                        三年大学生活,过得波澜不惊,乏善可陈,连个再来一瓶的奖励都没有
+                                        <img src="./img/ganga.png" alt="">
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <time class="cbp_tmtime" datetime=" "><span>四处转了转</span> <span>2011.8-2012.3</span>
+                                </time>
+                                <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                                <div class="cbp_tmlabel">
+                                    <h2>应届生找工作都是很辛苦的</h2>
+                                    <p>如题,毕业生找工作碰壁 <img src="./img/xinku.png" alt="">,在开发区一个电子厂工作了一段时间,和那里的人不在一个频道,想自己不能这样下去,得干个正儿八经的工作养活自己,遂辞职!
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <time class="cbp_tmtime" datetime=" "><span>志扬计算机培训 </span> <span>2012.5-2013.2</span>
+                                </time>
+                                <div class="cbp_tmicon cbp_tmicon-mail"></div>
+                                <div class="cbp_tmlabel">
+                                    <h2>Java编程开发</h2>
+                                    <p>亲戚推荐,确实不错,5人一个班(不是广告,现在这学校不对外招生了),中途三个人没坚持下来,最后只剩下我们俩人加一个老师.基本家教了.很庆幸那时的努力,
+                                        就像那句话: 投资在学习上的时间和软妹币总有一天会回赠给你自己 ！
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <time class="cbp_tmtime" datetime=""><span>烟台半岛软件</span> <span>2013.3-2015.7</span>
+                                </time>
+                                <div class="cbp_tmicon cbp_tmicon-phone"></div>
+                                <div class="cbp_tmlabel">
+                                    <h2>正式工作</h2>
+                                    <p> 说来也巧,学的Java毕业,去面试的第二家公司就录取了,但是他们用的Php,让我自学一下,因为个人自学能力不错,欣然接受,然后入了坑,成了一个PHPER,
+                                        依然感谢这家公司,工作氛围很不错,但主要方向依然是C语言为主,PHP只是辅助来存储数据的后台和API提供者,我中间还做过一段时间的Java(JNA+JWT来调取C++的视频流加载和控制),
+                                        后来因为个人原因离职,工作时间接近2年半
+                                    </p>
+                                </div>
+                            </li>
+                            <li>
+                                <time class="cbp_tmtime" datetime=" "><span>烟台商机互联</span> <span>2015.7-至今</span></time>
+                                <div class="cbp_tmlabel">
+                                    <h2>新的机遇</h2>
+                                    <p>
+                                    <div>此公司工作分成两个阶段:</div>
+                                    <div> 1.2015.7-2016.2 :研发部程序,负责公司新产品的开发与维护;
+                                    </div>
+                                    <div>2.2016.2-至今:项目部经理,负责所有公司网站的更新,维护以及项目单的制作
+                                    </div>
+                                    <div style="font-weight:initial;font-size: 18px">
+                                        这一家公司的两段工作经历,让我学到很多;
+                                        除了最常接触的服务器,FTP,SSH,以及MYSQL外,还有那二次开发改到吐血的CMS类源码;
+                                    </div>
+                                    <div style="font-weight:initial;font-size: 18px">
+                                        比如我想看看除了TP以外我们有没有更好的framework使用,我找到了光芒万丈的laravel;
+                                    </div>
+                                    <div style="font-weight:initial;font-size: 18px"> 比mvc更好的前后端分离方案,看到了VUE;</div>
+                                    <div style="font-weight:initial;font-size: 18px"> web的发展本身就日新月异,其他也不做表述了</div>
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li>
+                                <time class="cbp_tmtime" datetime=" "><span>总结一下</span>
+                                    <span>NOW</span></time>
+                                <div class="cbp_tmicon cbp_tmicon-screen"></div>
+                                <div class="cbp_tmlabel">
+                                    <h2>说点什么</h2>
+                                    <p style="font-weight: lighter">
+                                        2013.3-至今,是我在烟台从事编程行业的时间,从开始的懵懂到现在的了然,这是一个复杂,喜悦,痛苦而且漫长的过程
+                                        编程本身就是一个多写多练多想的东西,所谓的经验,无非是你今天看到的问题,我几年前已经看过了,
+                                        你今天遇到的坑,我在以前也已经填过了,编程这个行当本就靠自己,技术这个东西,谁Can谁Up,我见过二十几岁的小青年独自运营一个laravel的教育类网站(会员收入都是6位数),
+                                        也见过三十好几在岗位混了数年离职后却无人要的落魄大哥,一句话,不要忘了你敲代码的初衷!
+                                  最后:
+                                    </p>
+                                    <h3>越努力,越幸运</h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </section>
+    <section id="my-skill" class="row">
+        <div class="container">
+            <div class="row  text-center animatedParent">
+                <div><h4>职业技能</h4></div>
+                <div>
+                    <small style="color:black;">
+                        I Can
+                    </small>
+                    <div class="divider-header"></div>
+                </div>
+            </div>
+            <!--SKILL展示-->
+            <div class="container">
+                <div class="row">
+                    <!--系统-->
+                    <div class="col-md-4  col-sm-4  col-xs-4">
+                        <div class="animated rotateInDownLeft go">
+                            <div class="service-box text-center">
+                                <div class="service-ico">
+                                    <h3>System</h3>
+                                </div>
+                                <div class="service-desc">
+                                    <div id="system">
+                                        <span class="button button-primary button-rounded button-small ">linux</span>
+                                        <span class="button button-highlight button-rounded  button-small">windows</span>
+
+                                        <span class="button button-primary button-rounded button-small ">阿里云</span>
+                                        <span class="button button-highlight button-rounded  button-small">七牛</span>
+                                        <span class="button button-caution button-rounded  button-small">百度云</span>
+                                        <span class="button button-action button-rounded  button-small">....</span>
+                                    </div>
+                                    <p></p>
+                                    <button onclick="show('system')"
+                                            class="button button-glow button-border button-rounded button-primary">more
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--前端-->
+                    <div class="col-md-4  col-sm-4  col-xs-4">
+                        <div class="animated rotateInDownLeft go">
+                            <div class="service-box text-center">
+                                <div class="service-ico">
+                                    <h3>Web</h3>
+                                </div>
+                                <div class="service-desc">
+                                    <div id="web"><span
+                                            class="button button-action button-rounded button-small">Vue</span>
+                                        <span class="button button-highlight  button-rounded button-small">HTML</span>
+                                        <span class="button button-caution button-rounded button-small">CSS</span>
+                                        <span class="button button-royal button-rounded button-small">Jquery</span>
+                                        <span class="button button-primary button-rounded button-small">Bootstrap</span>
+                                    </div>
+                                    <p></p>
+                                    <button onclick="show('web')"
+                                            class="button button-glow button-border button-rounded button-primary">more
+                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!--框架-->
+                    <div class="col-md-4  col-sm-4  col-xs-4">
+                        <div class="animated rotateInDownLeft go">
+                            <div class="service-box text-center">
+                                <div class="service-ico">
+                                    <h3>Framework</h3>
+                                </div>
+                                <div class="service-desc">
+                                    <div id="framework"><span class="button button-action button-rounded button-small">Thinkphp</span>
+                                        <span class="button button-highlight  button-rounded button-small">CI</span>
+                                        <span class="button button-caution  button-rounded button-small">Laravel</span>
+                                    </div>
+                                    <p></p>
+                                    <button onclick="show('framework')"
+                                            class="button button-glow button-border button-rounded button-primary">more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--数据库-->
+                    <div class="col-md-4  col-sm-4  col-xs-4">
+                        <div class="animated rotateInDownLeft go">
+                            <div class="service-box text-center">
+                                <div class="service-ico">
+                                    <h3>Database</h3>
+                                </div>
+                                <div class="service-desc">
+                                    <div id="database"><span class="button button-action button-rounded button-small">Sqlite</span>
+                                        <span class="button button-highlight  button-rounded button-small">Mysql</span>
+                                        <span class="button button-primary  button-rounded button-small">Sqlserver</span>
+                                    </div>
+                                    <p></p>
+                                    <button onclick="show('database')"
+                                            class="button button-glow button-border button-rounded button-primary">more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Language-->
+                    <div class="col-md-4  col-sm-4  col-xs-4">
+                        <div class="animated rotateInDownLeft go">
+                            <div class="service-box text-center">
+                                <div class="service-ico">
+
+                                    <h3>Language</h3>
+                                </div>
+                                <div class="service-desc">
+                                    <div id="language">
+                                        <span class="button button-action button-rounded  ">PHP</span>
+                                        <span class="button button-highlight  button-rounded  ">JAVASCRIPT</span>
+                                        <span class="button button-caution button-rounded  button-small">Composer</span>
+                                        <span class="button button-action button-rounded  button-small">NodeJS</span>
+                                        <span class="button button-royal button-rounded  button-small">Git</span>
+                                    </div>
+                                    <p></p>
+                                    <button onclick="show('language')"
+                                            class="button button-glow button-border button-rounded button-primary">more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--project-->
+                    <div class="col-md-4  col-sm-4  col-xs-4">
+                        <div class="animated rotateInDownLeft go">
+                            <div class="service-box text-center">
+                                <div class="service-ico">
+                                    <h3>Project</h3>
+                                </div>
+                                <div class="service-desc">
+                                    <div id="project">
+                                        <span class="button button-action button-rounded button-small">Ecshop</span>
+                                        <span class="button button-highlight  button-rounded button-small">Destoon</span>
+                                        <span class="button button-primary  button-rounded button-small">CMS</span>
+                                        <span class="button button-royal  button-rounded button-small">EasyWechat</span>
+                                    </div>
+                                    <p></p>
+                                    <button onclick="show('project')"
+                                            class="button button-glow button-border button-rounded button-primary">more
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--skill展示结束-->
+        </div>
+    </section>
+    <section id="my-contact" class="row">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-12 text-center">
+                    <div><h4>联系</h4></div>
+                    <div>
+                        <small style="color:black;">
+                            Contact&nbsp; Me
+                        </small>
+                    </div>
+                    <div class="divider-header"></div>
+                    <div class="text-center">
+                        <span style="color:black;"><i class="fa fa-phone-square fa-2x  "></i>137****4504(暂不公布!~)</span>
+                        <span style="color:black;"><i class="fa fa-github fa-2x  "></i> qhj1989@qq.com ZHUXIAOJIN</span>
+                        <span style="color:black;"><i class="fa fa-qq fa-2x "></i> 910194413</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="web-num">友情链接:<a target="_blank" href="http://www.ytphper.com">云梯网</a></div>
+                    <div class="web-num"><img src="./img/gh.png" style="width: 28px;padding:3px;" alt="">鲁ICP备17010511号
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<!--<script src="./js/jquery.min.js"></script>-->
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="./unslider/js/unslider-min.js"></script>
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="./js/jquery.sticky.js"></script>
+<script src="./layer/layer.js"></script>
+<script src="./js/base.js"></script>
+<script>
+</script>
+</body>
+</html>
